@@ -1,23 +1,15 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (contains your specific SDK path)
-local.properties
-
-# Android Studio / IntelliJ files
-.idea/workspace.xml
-.idea/libraries
 *.iml
-*.ipr
-*.iws
-
-# VS Code files
-.vscode/
-
-# Log files
-*.log
-
-# Output files
-*.apk
-*.aar
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
