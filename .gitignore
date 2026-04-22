@@ -1,15 +1,16 @@
+# IDE & System
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Gradle & Build
+.gradle/
+build/
+/build/
+/*/build/
+
+# Local Config (Crucial for your C: vs D: setup)
 local.properties
