@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/carwash_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carwash Services"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6F4E37"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- BASIC -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:text="Basic Wash"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#6F4E37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="• Exterior cleaning\n• Quick rinse"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnBasic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Basic"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <!-- INTERIOR -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:text="Interior Cleaning"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#6F4E37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="• Vacuum seats\n• Dashboard wipe\n• Interior polish"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnInterior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Interior"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <!-- PREMIUM (GOLD) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#FFF8E1"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:text="Premium Wash"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#C9A227"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="• Full exterior and interior\n• Wax coating\n• Tire shine"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnPremium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Premium"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#C9A227"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
