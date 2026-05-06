@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="12dp"
+    android:gravity="center_vertical">
+
+    <!-- Quantity -->
+    <TextView
+        android:id="@+id/tvItemQty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1x"
+        android:textColor="#8D6E63"
+        android:textStyle="bold"
+        android:paddingRight="12dp" />
+
+    <!-- Name and Details (Stacked vertically inside the horizontal row) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signature Cold Brew"
+            android:textColor="#212121"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvItemDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Less Sugar, Extra Ice"
+            android:textColor="#757575"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- Price -->
+    <TextView
+        android:id="@+id/tvItemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₱120.00"
+        android:textColor="#212121"
+        android:textStyle="bold" />
+
+</LinearLayout>
