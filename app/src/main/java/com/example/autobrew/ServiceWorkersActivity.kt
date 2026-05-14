@@ -3,6 +3,7 @@ package com.example.autobrew
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
@@ -15,8 +16,7 @@ class ServiceWorkersActivity : AppCompatActivity() {
         val btn1 = findViewById<Button>(R.id.btnHire1)
         val btn2 = findViewById<Button>(R.id.btnHire2)
         val btn3 = findViewById<Button>(R.id.btnHire3)
-        val txtBack = findViewById<Button>(R.id.btnBack)
-
+        val txtBack = findViewById<TextView>(R.id.btnBack)
 
         txtBack.setOnClickListener {
             val intent = Intent(this, CarwashActivity::class.java)

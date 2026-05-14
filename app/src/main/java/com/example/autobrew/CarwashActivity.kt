@@ -37,7 +37,7 @@ class CarwashActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btnPremium.setOnClickListener{
+        btnPremium.setOnClickListener {
             val intent = Intent(this, ServiceWorkersActivity::class.java)
             startActivity(intent)
         }
