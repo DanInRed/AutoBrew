@@ -54,20 +54,20 @@
 
 
         <Button
-            android:id="@+id/btnBooking"
+            android:id="@+id/btnTrack"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Book Appointment"
+            android:text="Track My Order"
             android:textColor="#FFFFFF"
             android:backgroundTint="#6F4E37"
             android:layout_marginBottom="12dp"/>
 
 
         <Button
-            android:id="@+id/btnHistory"
+            android:id="@+id/btnReview"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="View History"
+            android:text="Review"
             android:textColor="#FFFFFF"
             android:backgroundTint="#6F4E37"
             android:layout_marginBottom="20dp"/>

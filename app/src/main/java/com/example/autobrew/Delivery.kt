@@ -19,6 +19,8 @@ class Delivery : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_delivery)
 
+
+
         // 1. Create your data (In a real app, this comes from a Cart)
         val myOrder = listOf(
             OrderItem("Signature Cold Brew", "Less Sugar", 120.0, 1),

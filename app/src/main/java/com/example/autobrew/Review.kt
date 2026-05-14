@@ -1,5 +1,6 @@
 package com.example.autobrew
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.RatingBar
@@ -15,6 +16,12 @@ class Review : AppCompatActivity() {
         val ratingBar = findViewById<RatingBar>(R.id.ratingBar)
         val btnSubmit = findViewById<Button>(R.id.btnSubmitReview)
         val btnSkip = findViewById<TextView>(R.id.btnSkipReview)
+        val txtBack = findViewById<TextView>(R.id.btnBack)
+
+        txtBack.setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
 
         btnSubmit.setOnClickListener {
             val rating = ratingBar.rating
