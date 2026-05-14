@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">AutoBrew</string>
+    <string name="title_activity_beverage">BeverageActivity</string>
+    <string name="title_activity_promo">PromoActivity</string>
+    <string name="title_activity_service_workers">ServiceWorkersActivity</string>
     <string name="button_text1">Click Me!</string>
 </resources>

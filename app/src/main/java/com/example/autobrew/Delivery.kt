@@ -19,11 +19,13 @@ class Delivery : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_delivery)
 
+
+
         // 1. Create your data (In a real app, this comes from a Cart)
         val myOrder = listOf(
-            OrderItem("Signature Cold Brew", "Less Sugar", 120.0, 1),
+            OrderItem("Signature Cappuccino", "Less Sugar", 120.0, 1),
             OrderItem("Iced Americano", "Extra Shot", 110.0, 1),
-            OrderItem("Classic Croissant", "Warmed", 85.0, 2)
+            OrderItem("Latte", "With Spit", 140.0, 1)
         )
 
         // 2. Set up RecyclerView

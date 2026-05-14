@@ -40,6 +40,10 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+
+        <activity android:name=".ServiceWorkersActivity" android:exported="false" android:label="@string/title_activity_service_workers" android:theme="@style/Theme.AutoBrew"/>
+        <activity android:name=".PromoActivity" android:exported="false" android:label="@string/title_activity_promo" android:theme="@style/Theme.AutoBrew"/>
+        <activity android:name=".BeverageActivity" android:exported="false" android:label="@string/title_activity_beverage" android:theme="@style/Theme.AutoBrew"/>
     </application>
 
 </manifest>

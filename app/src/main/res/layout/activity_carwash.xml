@@ -13,6 +13,14 @@
 
         <!-- Title -->
         <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:padding="8dp"
+            android:textColor="#4E342E"/>
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Carwash Services"
